@@ -22,7 +22,6 @@
 
 <body>
 
-    <!-- style="overflow: hidden;" -->
     <div class="is-relative">
         <div class="overlay-banner"></div>
 
@@ -31,7 +30,7 @@
             <div class="brand-layer"></div>
             <div class="navbar-brand">
 
-                <img src="/assets/images/logo.webp" alt="" class="ma-logo-pt my-auto" style="margin: auto 0;">
+                <img src="/assets/images/logo.webp" alt="" class="ma-logo-pt my-auto">
 
                 <div class="navbar-burger js-burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -48,11 +47,11 @@
 
                     <a class="navbar-item "></a>
 
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#sectionUs">
                         NOSOTROS
                     </a>
 
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#sectionProject">
                         PROYECTO
                     </a>
 
@@ -60,7 +59,7 @@
                         AMENIDADES
                     </a>
 
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#sectionResidentials">
                         RESIDENCIAS
                     </a>
                 </div>
@@ -76,9 +75,9 @@
         </nav>
 
         <!-- us -->
-        <section class="container is-fluid" style="height: 900px;">
+        <section class="container is-fluid us-height" id="sectionUs">
 
-            <div class="columns is-relative" style="padding-top: 70px;">
+            <div class="columns is-relative pt-70">
 
                 <div class="control-carousel ">
                     <div class="control-square is-active"></div>
@@ -119,7 +118,7 @@
 
 
     <!-- residentials -->
-    <section class="container is-fluid is-relative " style="background-color: var(--brand-color); ">
+    <section class="container is-fluid is-relative bg-brand" id="sectionResidentials">
 
         <div class="columns ">
 
@@ -161,10 +160,11 @@
 
 
     <!-- project -->
-    <section class="container is-fluid is-relative has-text-centered " style="overflow: hidden;">
+    <section class="container is-fluid is-relative has-text-centered overflow-hidden" id="sectionProject">
 
         <div class="hero-diagonal-top"></div>
 
+        <div class=" pb-70"></div>
         <div class=" pb-70"></div>
         <div class=" pb-70"></div>
 
@@ -181,7 +181,7 @@
         <div class=" pb-50"></div>
 
         <div class="is-block">
-            <img src="/assets/images/amenities.png" alt="" style="width: 100%; ">
+            <img src="/assets/images/amenities.png" alt="">
 
 
             <a href="#" class="btn-ma brown-pt is-relative" style="top:-36px" data-aos="fade-down"
@@ -259,20 +259,20 @@
 
         <div class="fixed-grid has-2-cols has-4-cols-tablet">
             <div class="grid">
-                <div class="cell is-row-span-2 is-col-span-2" style="overflow: hidden;">
-                    <img src="/assets/images/rest.png" alt="" style="height: 100%;">
+                <div class="cell is-row-span-2 is-col-span-2 overflow-hidden">
+                    <img src="/assets/images/rest.png" alt="" class="is-fullheight-ma">
                 </div>
-                <div class="cell" style="overflow: hidden;">
-                    <img src="/assets/images/pool.png" alt="" style="height: 100%;">
+                <div class="cell overflow-hidden">
+                    <img src="/assets/images/pool.png" alt="" class="is-fullheight-ma">
                 </div>
-                <div class="cell" style="overflow: hidden;">
-                    <img src="/assets/images/rooms.png" alt="" style="height: 100%;">
+                <div class="cell overflow-hidden">
+                    <img src="/assets/images/rooms.png" alt="" class="is-fullheight-ma">
                 </div>
-                <div class="cell">
-                    <img src="/assets/images/bridge.png" alt="" style="height: 100%;">
+                <div class="cell overflow-hidden">
+                    <img src="/assets/images/bridge.png" alt="" class="is-fullheight-ma">
                 </div>
-                <div class="cell" style="overflow: hidden;">
-                    <img src="/assets/images/lobby.png" alt="" style="height: 100%;">
+                <div class="cell overflow-hidden">
+                    <img src="/assets/images/lobby.png" alt="" class="is-fullheight-ma">
                 </div>
             </div>
         </div>
@@ -316,9 +316,8 @@
                 <!-- contact info -->
                 <div class="pb-24 is-flex" style="margin-right: 70px;">
 
-                    <div style="border-radius: 50%;
-    border: 2px solid #ffffff;padding: 8px;" class=" my-auto is-flex">
-                        <img src="/assets/images/phone.png" alt="" style=" width: 18px; height: 18px; " class="my-auto">
+                    <div class=" my-auto is-flex contact-phone">
+                        <img src="/assets/images/phone.png" alt="" width="18" height="18" class="my-auto">
                     </div>
                     <a href="tel:5219982588488" class="has-text-white ml-4">
                         +52 1 998 258 8488
@@ -327,9 +326,8 @@
 
                 <div class="pb-24 is-flex">
 
-                    <div style="border-radius: 50%;
-    border: 2px solid #ffffff;padding: 10px 8px;" class=" my-auto is-flex">
-                        <img src="/assets/images/mail.png" alt="" style="width: 19px; height: 14px;" class="my-auto">
+                    <div class=" my-auto is-flex contact-mail">
+                        <img src="/assets/images/mail.png" alt="" width="19" height="14" class="my-auto">
                     </div>
                     <a href="mailto:ventas@markearcrealtos.com" class="has-text-white ml-4">
                         ventas@markearcrealtos.com
@@ -338,7 +336,7 @@
             </div>
         </div>
 
-        <div style="background-color: #000000; border: 1px solid #ffffff; opacity: 0.8;"></div>
+        <div class="footer-divider"></div>
 
         <div class="container is-fluid has-text-centered has-text-centered-desktop f-fn-3 pt-24">
             <!-- copy right -->
